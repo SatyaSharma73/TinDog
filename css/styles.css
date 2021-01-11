@@ -1,5 +1,6 @@
 body{
   font-family: 'Montserrat-Black', sans-serif;
+  margin: 0;
 }
 
 #title{
@@ -12,6 +13,20 @@ h1{
   font-size: 4rem;
   line-height: 1.5;
   font-weight: bold;
+}
+h3{
+  font-family: 'Montserrat-Bold';
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+h2{
+  font-family: 'Montserrat-Bold';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p{
+  color: #8f8f8f;
 }
 .container-fluid{
   padding: 3% 15%;
@@ -37,8 +52,35 @@ h1{
 }
 .title-img{
   width: 50%;
-
   left:100px;
   transform:rotate(25deg);
-
+}
+#features{
+  padding: 7% 15%;
+}
+.feature-box{
+  text-align: center;
+  line-height: 2;
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  padding:  7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.press{
+  background-color: #ef8172;
 }
